@@ -1,0 +1,167 @@
+body {
+    font-family: 'Montserrat', arial;
+}
+
+h1 {
+    font-family: 'Montserrat', arial;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'Montserrat Bold', arial;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.54rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* download button */
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  right: 25%;
+}
+
+/* section features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* section testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+em {
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding-left: 3px;
+  padding-right: 4px;
+}
+
+/* section cta */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 9% 15%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat Black', arial;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* section footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+.anchor-text{
+    font-family: "Ubuntu";
+    color: #8f8f8f;
+}
+
+@media (max-width:1170px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
